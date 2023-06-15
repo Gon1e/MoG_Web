@@ -194,5 +194,6 @@ body {
   
   .banner a img {
     transform: translateY(70%);
+    width: 10%;
   }
   
