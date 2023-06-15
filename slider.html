@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <title>Slick Slider Basic Example</title>
+  <style>
+    .slider {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .slide {
+      text-align: center;
+      height: 200px;
+      line-height: 200px;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <div class="slide">Slide 1</div>
+    <div class="slide">Slide 2</div>
+    <div class="slide">Slide 3</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.slider').slick();
+    });
+  </script>
+</body>
+</html>
