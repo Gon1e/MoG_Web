@@ -184,3 +184,15 @@ body {
     height: 100%;
     background-color: red;
   }
+  
+  .banner a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .banner a img {
+    transform: translateY(70%);
+  }
+  

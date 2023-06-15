@@ -10,4 +10,4 @@ function typing() {
   }
 }
 
-const timer = setInterval(typing, 50);
+const timer = setInterval(typing, 5);
